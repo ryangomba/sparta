@@ -1,0 +1,1962 @@
+TBoardGame
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Info.plist" Resources/Info.plist
+cStripNIB "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/English.lproj/MainMenu.nib"
+cCopyStringsFile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCpResource "Resources/Green Ball.png" "build/Debug/GeekGameBoard.app/Contents/Resources/Green Ball.png"
+cCpResource "Resources/Red Ball.png" "build/Debug/GeekGameBoard.app/Contents/Resources/Red Ball.png"
+cCpResource "Resources/Yellow Ball.png" "build/Debug/GeekGameBoard.app/Contents/Resources/Yellow Ball.png"
+cCpResource "Resources/White Ball.png" "build/Debug/GeekGameBoard.app/Contents/Resources/White Ball.png"
+cCpResource Resources/Wood.jpg build/Debug/GeekGameBoard.app/Contents/Resources/Wood.jpg
+cCopyTiffFile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/O.tiff" Resources/O.tiff
+cCopyTiffFile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/X.tiff" Resources/X.tiff
+cCpResource Resources/Background.png build/Debug/GeekGameBoard.app/Contents/Resources/Background.png
+cCpResource Resources/Gingko/Blue.png build/Debug/GeekGameBoard.app/Contents/Resources/Blue.png
+cCpResource Resources/Gingko/Gold.png build/Debug/GeekGameBoard.app/Contents/Resources/Gold.png
+cCpResource Resources/Gingko/Green.png build/Debug/GeekGameBoard.app/Contents/Resources/Green.png
+cCpResource Resources/Gingko/Red.png build/Debug/GeekGameBoard.app/Contents/Resources/Red.png
+cCpResource Resources/Balls/ball-black.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-black.png
+cCpResource Resources/Gingko/Violet.png build/Debug/GeekGameBoard.app/Contents/Resources/Violet.png
+cCpResource Resources/Balls/ball-cyan.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-cyan.png
+cCpResource Resources/Balls/ball-gray.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-gray.png
+cCpResource Resources/Balls/ball-green.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-green.png
+cCpResource Resources/Balls/ball-orange.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-orange.png
+cCpResource Resources/Balls/ball-purple.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-purple.png
+cCpResource Resources/Balls/ball-red.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-red.png
+cCpResource Resources/Balls/ball-white.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-white.png
+cProcessPCH /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch.gch Source/GeekGameBoard_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Turn.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Turn.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/HexchequerGame.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/HexchequerGame.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GoGame.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GoGame.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/HexGrid.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/HexGrid.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Piece.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Piece.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Dispenser.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Dispenser.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Grid.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Grid.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/BoardView.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/BoardView.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/main.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/main.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Card.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Card.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Bit.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Bit.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/PlayingCard.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/PlayingCard.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/QuartzUtils.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/QuartzUtils.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Game.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Game.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/TicTacToeGame.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/TicTacToeGame.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/CheckersGame.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/CheckersGame.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/DiscPiece.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/DiscPiece.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Stack.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Stack.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/KlondikeGame.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/KlondikeGame.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Deck.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Deck.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GGBLayer.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBLayer.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/BitHolder.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/BitHolder.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/DemoBoardView.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/DemoBoardView.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GGBUtils.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBUtils.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GGBTextLayer.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBTextLayer.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Player.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Player.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/MacOS/GeekGameBoard" normal i386
+cPBXCp Helpers/SpartaLogger/build/Debug/SpartaLogger.app build/Debug/GeekGameBoard.app/Contents/Library/LoginItems/SpartaLogger.app
+cTouch "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004EA9FCFC00000000000000EE
+t1319763196
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004E2F297B0000000000025E48
+t1311713659
+s155208
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004DD5EBC80000000000000A22
+t1305865160
+s2594
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004DDDAFC700000000000013E6
+t1306374087
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
+c000000004C2446330000000000000124
+t1277445683
+s292
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004DC6CE890000000000000108
+t1304874633
+s264
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ServiceManagement.framework/Headers/ServiceManagement.h
+c000000004D3E33A00000000000001C25
+t1295922080
+s7205
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ServiceManagement.framework/ServiceManagement
+c000000004E2F297E000000000001035C
+t1311713662
+s66396
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E0F60E60000000000006560
+t1309630694
+s25952
+
+N/System/Library/Frameworks/Quartz.framework/Quartz
+c000000004E0F60EE0000000000006560
+t1309630702
+s25952
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.h
+c000000004EC7D15D00000000000001AE
+t1321718109
+s430
+i<Cocoa/Cocoa.h>
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m
+c000000004EC7E83C0000000000000E00
+t1321723964
+s3584
+i"AppDelegate.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/Sparta-Info.plist
+c000000004ECFB1F6000000000000043F
+t1322234358
+s1087
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/en.lproj/InfoPlist.strings
+c000000004EC27539000000000000002D
+t1321366841
+s45
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/en.lproj/MainMenu.xib
+c000000004EC275390000000000032DF1
+t1321366841
+s208369
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/main.m
+c000000004EC2753900000000000000F3
+t1321366841
+s243
+i<Cocoa/Cocoa.h>
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/SpartaLogger.app
+c000000004ECFB57D0000000000000066
+t1322235261
+s102
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/AppDelegate.o
+c000000004ECFB57C0000000000007778
+t1322235260
+s30584
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SpartaLogger.LinkFileList
+c000000004ECFB57C0000000000000163
+t1322235260
+s355
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/main.o
+c000000004ECFB57C0000000000000938
+t1322235260
+s2360
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-all-target-headers.hmap
+c000000004ECFB57C0000000000000319
+t1322235260
+s793
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-generated-files.hmap
+c000000004ECFB57C0000000000000079
+t1322235260
+s121
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-own-target-headers.hmap
+c000000004ECFB57C0000000000000319
+t1322235260
+s793
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-project-headers.hmap
+c000000004ECFB57C000000000000039E
+t1322235260
+s926
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger.dep
+c000000004ECFB57D00000000000008B7
+t1322235261
+s2231
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger.hmap
+c000000004ECFB57C000000000000069E
+t1322235260
+s1694
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/build-state.dat
+c000000004ECFB57D0000000000005F31
+t1322235261
+s24369
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/English.lproj/InfoPlist.strings
+c000000004D4F839600000000000000BC
+t1297056662
+s188
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/English.lproj/MainMenu.nib
+c000000004EC860310000000000000088
+t1321754673
+s136
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/AppDelegate.h
+c000000004EC7D15D00000000000001AE
+t1321718109
+s430
+i<Cocoa/Cocoa.h>
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/AppDelegate.m
+c000000004EC7E83C0000000000000E00
+t1321723964
+s3584
+i"AppDelegate.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Sparta-Info.plist
+c000000004ECFB1F6000000000000043F
+t1322234358
+s1087
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/en.lproj/InfoPlist.strings
+c000000004EC27539000000000000002D
+t1321366841
+s45
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/en.lproj/MainMenu.xib
+c000000004EC275390000000000032DF1
+t1321366841
+s208369
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/main.m
+c000000004EC2753900000000000000F3
+t1321366841
+s243
+i<Cocoa/Cocoa.h>
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app
+c000000004ED0FDD10000000000000066
+t1322319313
+s102
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/AppDelegate.o
+c000000004ECFB8880000000000007748
+t1322236040
+s30536
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SpartaLogger.LinkFileList
+c000000004ECFB8870000000000000137
+t1322236039
+s311
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/main.o
+c000000004ECFB8880000000000000900
+t1322236040
+s2304
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-all-target-headers.hmap
+c000000004ECFB8710000000000000319
+t1322236017
+s793
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-generated-files.hmap
+c000000004ECFB8710000000000000079
+t1322236017
+s121
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-own-target-headers.hmap
+c000000004ECFB8710000000000000319
+t1322236017
+s793
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-project-headers.hmap
+c000000004ECFB871000000000000038A
+t1322236017
+s906
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger.dep
+c000000004ECFB888000000000000111D
+t1322236040
+s4381
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger.hmap
+c000000004ECFB871000000000000068A
+t1322236017
+s1674
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger~.dep
+c000000004ECFB57D00000000000008B7
+t1322235261
+s2231
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/build-state.dat
+c000000004ECFB888000000000000AFEA
+t1322236040
+s45034
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/build-state~.dat
+c000000004ECFB57D0000000000005F31
+t1322235261
+s24369
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Background.png
+c000000004D4F839600000000000060B8
+t1297056662
+s24760
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Balls/ball-black.png
+c000000004D4F83960000000000000CCE
+t1297056662
+s3278
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Balls/ball-cyan.png
+c000000004D4F83960000000000002186
+t1297056662
+s8582
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Balls/ball-gray.png
+c000000004D4F83960000000000001FE1
+t1297056662
+s8161
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Balls/ball-green.png
+c000000004D4F83960000000000002370
+t1297056662
+s9072
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Balls/ball-orange.png
+c000000004D4F83960000000000002119
+t1297056662
+s8473
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Balls/ball-purple.png
+c000000004D4F83960000000000002083
+t1297056662
+s8323
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Balls/ball-red.png
+c000000004D4F8396000000000000229E
+t1297056662
+s8862
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Balls/ball-white.png
+c000000004D4F83960000000000000FC0
+t1297056662
+s4032
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Gingko/Blue.png
+c000000004D4F839600000000000062C2
+t1297056662
+s25282
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Gingko/Gold.png
+c000000004D4F839600000000000051DE
+t1297056662
+s20958
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Gingko/Green.png
+c000000004D4F839600000000000056DE
+t1297056662
+s22238
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Gingko/Red.png
+c000000004D4F83960000000000005A46
+t1297056662
+s23110
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Gingko/Violet.png
+c000000004D4F83960000000000005A13
+t1297056662
+s23059
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Green Ball.png
+c000000004D4F83960000000000014536
+t1297056662
+s83254
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/O.tiff
+c000000004D4F839600000000000100BA
+t1297056662
+s65722
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Red Ball.png
+c000000004D4F83960000000000014160
+t1297056662
+s82272
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/White Ball.png
+c000000004D4F83960000000000024728
+t1297056662
+s149288
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Wood.jpg
+c000000004D4F83960000000000000900
+t1297056662
+s2304
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/X.tiff
+c000000004D4F839600000000000100BA
+t1297056662
+s65722
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Yellow Ball.png
+c000000004D4F83960000000000013714
+t1297056662
+s79636
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Bit.h
+c000000004D4F83960000000000000B7F
+t1297056662
+s2943
+i"GGBLayer.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Bit.m
+c000000004D4F839600000000000015B0
+t1297056662
+s5552
+i"Bit.h"
+i"Game.h"
+i"Player.h"
+i"QuartzUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/BitHolder.h
+c000000004D4F83960000000000000C43
+t1297056662
+s3139
+i"GGBLayer.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/BitHolder.m
+c000000004D4F83960000000000000AEE
+t1297056662
+s2798
+i"BitHolder.h"
+i"Bit.h"
+i"QuartzUtils.h"
+i"GGBUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/BoardView.h
+c000000004D4F83960000000000000D3D
+t1297056662
+s3389
+i<Cocoa/Cocoa.h>
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/BoardView.m
+c000000004D4F83960000000000004003
+t1297056662
+s16387
+i"BoardView.h"
+i"Bit.h"
+i"BitHolder.h"
+i"Game+Protected.h"
+i"Turn.h"
+i"Player.h"
+i"QuartzUtils.h"
+i"GGBUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Card.h
+c000000004D4F83960000000000000ABE
+t1297056662
+s2750
+i"Bit.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Card.m
+c000000004D4F83960000000000001A75
+t1297056662
+s6773
+i"Card.h"
+i"GGBTextLayer.h"
+i"QuartzUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/CheckersGame.h
+c000000004D4F83960000000000000762
+t1297056662
+s1890
+i"Game+Protected.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/CheckersGame.m
+c000000004D4F839600000000000020E8
+t1297056662
+s8424
+i"CheckersGame.h"
+i"Grid.h"
+i"Piece.h"
+i"QuartzUtils.h"
+i"GGBUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Deck.h
+c000000004D4F83960000000000000987
+t1297056662
+s2439
+i"BitHolder.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Deck.m
+c000000004D4F83960000000000001CAE
+t1297056662
+s7342
+i"Deck.h"
+i"Card.h"
+i"Stack.h"
+i"QuartzUtils.h"
+i"GGBUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/DemoBoardView.h
+c000000004ECFAE7D00000000000007E6
+t1322233469
+s2022
+i"BoardView.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/DemoBoardView.m
+c000000004ECFB1F10000000000001937
+t1322234353
+s6455
+i"DemoBoardView.h"
+i"Game.h"
+i"Turn.h"
+i"Player.h"
+i"GGBTextLayer.h"
+i"QuartzUtils.h"
+i<ServiceManagement/ServiceManagement.h>
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/DiscPiece.h
+c000000004D4F839600000000000006D1
+t1297056662
+s1745
+i"Piece.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/DiscPiece.m
+c000000004D4F839600000000000009A9
+t1297056662
+s2473
+i"DiscPiece.h"
+i"QuartzUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Dispenser.h
+c000000004D4F83960000000000000806
+t1297056662
+s2054
+i"BitHolder.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Dispenser.m
+c000000004D4F839600000000000013D9
+t1297056662
+s5081
+i"Dispenser.h"
+i"Piece.h"
+i"QuartzUtils.h"
+i"GGBUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBLayer.h
+c000000004D4F839600000000000007D8
+t1297056662
+s2008
+i<QuartzCore/QuartzCore.h>
+i<Quartz/Quartz.h>
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBLayer.m
+c000000004D4F83960000000000002B45
+t1297056662
+s11077
+i"GGBLayer.h"
+i"QuartzUtils.h"
+i"GGBUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBTextLayer.h
+c000000004D4F83960000000000000639
+t1297056662
+s1593
+i"GGBLayer.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBTextLayer.m
+c000000004D4F83960000000000001726
+t1297056662
+s5926
+i"GGBTextLayer.h"
+i"QuartzUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBUtils.h
+c000000004D4F83960000000000000792
+t1297056662
+s1938
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBUtils.m
+c000000004D4F83960000000000000E86
+t1297056662
+s3718
+i"GGBUtils.h"
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Game+Protected.h
+c000000004D4F839600000000000009D5
+t1297056662
+s2517
+i"Game.h"
+i"Player.h"
+i"Turn.h"
+i"Bit.h"
+i"BitHolder.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Game.h
+c000000004D4F839600000000000013E0
+t1297056662
+s5088
+i<Foundation/Foundation.h>
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Game.m
+c000000004D4F83960000000000003652
+t1297056662
+s13906
+i"Game+Protected.h"
+i"QuartzUtils.h"
+i"GGBUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GeekGameBoard_Prefix.pch
+c000000004D4F839600000000000006B1
+t1297056662
+s1713
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GoGame.h
+c000000004D4F8396000000000000073B
+t1297056662
+s1851
+i"Game+Protected.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GoGame.m
+c000000004D4F83960000000000002A39
+t1297056662
+s10809
+i"GoGame.h"
+i"Grid.h"
+i"Piece.h"
+i"Dispenser.h"
+i"Stack.h"
+i"QuartzUtils.h"
+i"GGBUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Grid.h
+c000000004D4F83960000000000001DEA
+t1297056662
+s7658
+i"BitHolder.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Grid.m
+c000000004D4F83960000000000004E81
+t1297056662
+s20097
+i"Grid.h"
+i"Bit.h"
+i"Piece.h"
+i"Game+Protected.h"
+i"Player.h"
+i"QuartzUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/HexGrid.h
+c000000004D4F839600000000000008BF
+t1297056662
+s2239
+i"Grid.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/HexGrid.m
+c000000004D4F83960000000000001C4C
+t1297056662
+s7244
+i"HexGrid.h"
+i"Game.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/HexchequerGame.h
+c000000004D4F83960000000000000779
+t1297056662
+s1913
+i"CheckersGame.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/HexchequerGame.m
+c000000004D4F83960000000000001618
+t1297056662
+s5656
+i"HexchequerGame.h"
+i"HexGrid.h"
+i"Piece.h"
+i"QuartzUtils.h"
+i"GGBUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/KlondikeGame.h
+c000000004D4F839600000000000006E8
+t1297056662
+s1768
+i"Game+Protected.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/KlondikeGame.m
+c000000004D4F839600000000000019EA
+t1297056662
+s6634
+i"KlondikeGame.h"
+i"Deck.h"
+i"PlayingCard.h"
+i"Stack.h"
+i"QuartzUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Piece.h
+c000000004D4F8396000000000000093E
+t1297056662
+s2366
+i"Bit.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Piece.m
+c000000004D4F8396000000000000124E
+t1297056662
+s4686
+i"Piece.h"
+i"QuartzUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Player.h
+c000000004D4F8396000000000000067D
+t1297056662
+s1661
+i<Foundation/Foundation.h>
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Player.m
+c000000004D4F83960000000000000A55
+t1297056662
+s2645
+i"Player.h"
+i"Game.h"
+i"GGBUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/PlayingCard.h
+c000000004D4F8396000000000000085F
+t1297056662
+s2143
+i"Card.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/PlayingCard.m
+c000000004D4F839600000000000011BC
+t1297056662
+s4540
+i"PlayingCard.h"
+i"GGBTextLayer.h"
+i"QuartzUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/QuartzUtils.h
+c000000004D4F83960000000000000EE1
+t1297056662
+s3809
+i"GGBLayer.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/QuartzUtils.m
+c000000004D4F839600000000000032CC
+t1297056662
+s13004
+i"QuartzUtils.h"
+i<QuartzCore/QuartzCore.h>
+i"Piece.h"
+i"GGBUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Stack.h
+c000000004D4F83960000000000000D0E
+t1297056662
+s3342
+i"Bit.h"
+i"BitHolder.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Stack.m
+c000000004D4F83960000000000001708
+t1297056662
+s5896
+i"Stack.h"
+i"QuartzUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/TicTacToeGame.h
+c000000004D4F839600000000000006D7
+t1297056662
+s1751
+i"Game+Protected.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/TicTacToeGame.m
+c000000004D4F83960000000000001219
+t1297056662
+s4633
+i"TicTacToeGame.h"
+i"Grid.h"
+i"Dispenser.h"
+i"Piece.h"
+i"QuartzUtils.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Turn.h
+c000000004D4F83960000000000000756
+t1297056662
+s1878
+i<Foundation/Foundation.h>
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Turn.m
+c000000004D4F8396000000000000124A
+t1297056662
+s4682
+i"Turn.h"
+i"Game+Protected.h"
+i"Player.h"
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/main.m
+c000000004D4F8396000000000000066E
+t1297056662
+s1646
+i<Cocoa/Cocoa.h>
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app
+t1322608390
+s102
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Info.plist
+t1322235267
+s1209
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Library/LoginItems/SpartaLogger.app
+t1322608390
+s102
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/MacOS/GeekGameBoard
+t1322236107
+s283440
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/PkgInfo
+t1322235267
+s8
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Background.png
+t1322235267
+s24760
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Blue.png
+t1322235267
+s25282
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1322235267
+s188
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/English.lproj/MainMenu.nib
+t1322235267
+s21599
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Gold.png
+t1322235267
+s20958
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Green Ball.png
+t1322235267
+s83254
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Green.png
+t1322235267
+s22238
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/O.tiff
+t1322235267
+s65722
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Red Ball.png
+t1322235267
+s82272
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Red.png
+t1322235267
+s23110
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Sparta-Info.plist
+t2
+s0
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger-all-target-headers.hmap
+t2
+s0
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger-generated-files.hmap
+t2
+s0
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger-own-target-headers.hmap
+t2
+s0
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger-project-headers.hmap
+t2
+s0
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger.LinkFileList
+t2
+s0
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger.app
+t1322235363
+s102
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger.dep
+t2
+s0
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger.hmap
+t2
+s0
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger~.dep
+t2
+s0
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Violet.png
+t1322235267
+s23059
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/White Ball.png
+t1322235267
+s149288
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Wood.jpg
+t1322235267
+s2304
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/X.tiff
+t1322235267
+s65722
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Yellow Ball.png
+t1322235267
+s79636
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/ball-black.png
+t1322235267
+s3278
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/ball-cyan.png
+t1322235267
+s8582
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/ball-gray.png
+t1322235267
+s8161
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/ball-green.png
+t1322235267
+s9072
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/ball-orange.png
+t1322235267
+s8473
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/ball-purple.png
+t1322235267
+s8323
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/ball-red.png
+t1322235267
+s8862
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/ball-white.png
+t1322235267
+s4032
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/build-state.dat
+t2
+s0
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/build-state~.dat
+t2
+s0
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/en.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/AppDelegate-53A7709D2541EB59.o
+t2
+s0
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/AppDelegate-E9767AF4147CD38D.o
+t2
+s0
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Bit.o
+t1322235270
+s20340
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/BitHolder.o
+t1322235270
+s14768
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/BoardView.o
+t1322235270
+s56600
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Card.o
+t1322235270
+s25564
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/CheckersGame.o
+t1322235270
+s35508
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Deck.o
+t1322235270
+s27736
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/DemoBoardView.o
+t1322235270
+s31584
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/DiscPiece.o
+t1322235270
+s8628
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Dispenser.o
+t1322235270
+s21056
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GGBLayer.o
+t1322235270
+s26584
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GGBTextLayer.o
+t1322235270
+s11048
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GGBUtils.o
+t1322235270
+s8960
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Game.o
+t1322235270
+s54072
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GeekGameBoard.LinkFileList
+c000000004ECFB6070000000000000D4C
+t1322235399
+s3404
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GoGame.o
+t1322235270
+s34648
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Grid.o
+t1322235270
+s83572
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/HexGrid.o
+t1322235270
+s25460
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/HexchequerGame.o
+t1322235270
+s23936
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/KlondikeGame.o
+t1322235270
+s20224
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Piece.o
+t1322235270
+s18228
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Player.o
+t1322235270
+s19252
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/PlayingCard.o
+t1322235270
+s17644
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/QuartzUtils.o
+t1322235270
+s28316
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Stack.o
+t1322235270
+s30988
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/TicTacToeGame.o
+t1322235270
+s18008
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Turn.o
+t1322235270
+s28052
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/main-6A3E53584393C47C.o
+t1322235363
+s2064
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/main-AE2E4C701C9A3B5E.o
+t2
+s0
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/main-B9843B6026D6EFA4.o
+t1322235363
+s1980
+
+N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/main.o
+t1322235270
+s1980
+
+N/var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch.gch
+t1322235269
+s44557776
+
+NResources/Info.plist
+c000000004D4F8396000000000000031B
+t1297056662
+s795
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/main.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/AppDelegate.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/main.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Bit.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/BitHolder.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/BoardView.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Card.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/CheckersGame.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Deck.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/DemoBoardView.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/DiscPiece.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Dispenser.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBLayer.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBTextLayer.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBUtils.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Game.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GoGame.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Grid.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/HexGrid.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/HexchequerGame.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/KlondikeGame.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Piece.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Player.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/PlayingCard.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/QuartzUtils.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Stack.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/TicTacToeGame.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Turn.m"
+r0
+
+CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc494d417a985b441^86e4d417a985b441^-310"[WARN]Mac OS X deployment target '10.6.6' for architecture 'i386' and variant 'normal' is greater than the maximum value '10.6' for the Mac OS X 10.6 SDK.[WARN]Mac OS X deployment target '10.6.6' for architecture 'i386' and variant 'normal' is greater than the maximum value '10.6' for the Mac OS X 10.6 SDK.2(21%IDEActivityLogMessage2@148"Mac OS X deployment target '10.6.6' for architecture 'i386' and variant 'normal' is greater than the maximum value '10.6' for the Mac OS X 10.6 SDK.-344303895#18446744073709551615#0#-1#-----2@148"Mac OS X deployment target '10.6.6' for architecture 'i386' and variant 'normal' is greater than the maximum value '10.6' for the Mac OS X 10.6 SDK.-344303895#18446744073709551615#0#-1#-----0#1#0#--18"Check dependencies36"8A97B259-D484-4373-B911-D91FD5B1DCE9-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/AppDelegate-53A7709D2541EB59.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/AppDelegate-E9767AF4147CD38D.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928163.255130
+e343928163.334571
+r0
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/AppDelegate-E9767AF4147CD38D.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+occ1obj: warnings being treated as errors
+o/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m:44: warning: ivar name '_window' specified on the synthesized property 'window' not found
+o/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m:44: error: synthesized property 'window' must either be named the same as a compatible ivar or must explicitly name an ivar
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.ma96b4163ed7fb441^c7626363ed7fb441^-483"cc1obj: warnings being treated as errors/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m:44: warning: ivar name '_window' specified on the synthesized property 'window' not found/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m:44: error: synthesized property 'window' must either be named the same as a compatible ivar or must explicitly name an ivar2(21%IDEActivityLogMessage2@76"Ivar name '_window' specified on the synthesized property 'window' not found-343928163#41#204#-2#-23%DVTTextDocumentLocation3@131"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m0000000000000000^43#18446744073709551615#43#18446744073709551615#18446744073709551615#0#18"LLVM GCC 4.2 Error--2@112"Synthesized property 'window' must either be named the same as a compatible ivar or must explicitly name an ivar-343928163#245#238#-2#-3@131"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m0000000000000000^43#18446744073709551615#43#18446744073709551615#18446744073709551615#0#18"LLVM GCC 4.2 Error--0#0#0#-19%DVTDocumentLocation4@131"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m0000000000000000^1571"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/AppDelegate-E9767AF4147CD38D.o Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/AppDelegate-E9767AF4147CD38D.o"36"D3059904-C0FB-4987-96C8-FF80AFDE553A-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Bit.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Bit.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928069.657245
+e343928070.179412
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Bit.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Bit.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Bit.meb70a805ed7fb441^8f6d2d06ed7fb441^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/Bit.m0000000000000000^1423"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Bit.o Source/Bit.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Bit.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Bit.o"36"899FB763-564B-426F-A566-E0F1A14D1BD4-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/BitHolder.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/BitHolder.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928070.595991
+e343928070.700731
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/BitHolder.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/BitHolder.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/BitHolder.md2a89806ed7fb441^c363b306ed7fb441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/BitHolder.m0000000000000000^1447"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/BitHolder.o Source/BitHolder.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/BitHolder.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/BitHolder.o"36"FAC87E0C-3075-4167-9DA3-5ACB4CC83DE5-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/BoardView.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/BoardView.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928069.656959
+e343928070.216230
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/BoardView.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/BoardView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/BoardView.m4161a805ed7fb441^1b4c3706ed7fb441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/BoardView.m0000000000000000^1447"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/BoardView.o Source/BoardView.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/BoardView.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/BoardView.o"36"BDE53E40-E913-47A6-AED1-E875E6D854EE-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Card.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Card.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928069.657018
+e343928070.186113
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Card.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Card.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Card.m9964a805ed7fb441^01a32f06ed7fb441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/Card.m0000000000000000^1427"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Card.o Source/Card.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Card.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Card.o"36"7418C574-459B-4394-B172-93E6ACD93811-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/CheckersGame.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/CheckersGame.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928070.367732
+e343928070.518470
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/CheckersGame.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/CheckersGame.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/CheckersGame.mee3f5e06ed7fb441^feb98406ed7fb441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/CheckersGame.m0000000000000000^1459"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/CheckersGame.o Source/CheckersGame.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/CheckersGame.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/CheckersGame.o"36"A0404624-BC65-4A7C-9739-97BD89B9B81D-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Deck.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Deck.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928070.519832
+e343928070.655999
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Deck.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Deck.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Deck.m49308506ed7fb441^13f0a706ed7fb441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/Deck.m0000000000000000^1427"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Deck.o Source/Deck.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Deck.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Deck.o"36"8CE1D639-8FBE-4ED0-8D4C-523501D7BF8D-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/DemoBoardView.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/DemoBoardView.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928070.606022
+e343928070.738127
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/DemoBoardView.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/DemoBoardView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/DemoBoardView.mc83f9b06ed7fb441^06f6bc06ed7fb441^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/DemoBoardView.m0000000000000000^1463"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/DemoBoardView.o Source/DemoBoardView.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/DemoBoardView.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/DemoBoardView.o"36"87FA7F36-4CC7-48AF-BC90-932B9393CBE8-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/DiscPiece.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/DiscPiece.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928070.404680
+e343928070.500716
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/DiscPiece.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/DiscPiece.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/DiscPiece.m1dac6706ed7fb441^512f8006ed7fb441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/DiscPiece.m0000000000000000^1447"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/DiscPiece.o Source/DiscPiece.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/DiscPiece.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/DiscPiece.o"36"E84A0502-CC06-48B6-B080-94CFE582A1B8-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Dispenser.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Dispenser.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928070.187851
+e343928070.333196
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Dispenser.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Dispenser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Dispenser.mc5ca3006ed7fb441^cb4c5506ed7fb441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/Dispenser.m0000000000000000^1447"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Dispenser.o Source/Dispenser.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Dispenser.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Dispenser.o"36"0C28D678-664B-403A-BD49-43B38FED1B72-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GGBLayer.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBLayer.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928070.657372
+e343928070.787218
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GGBLayer.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBLayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBLayer.m2368a806ed7fb441^f085c906ed7fb441^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/GGBLayer.m0000000000000000^1443"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GGBLayer.o Source/GGBLayer.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBLayer.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GGBLayer.o"36"0F220E3C-ED05-416A-B0AB-0BBF3BC0D106-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GGBTextLayer.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBTextLayer.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928070.702045
+e343928070.807890
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GGBTextLayer.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBTextLayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBTextLayer.m46d1b306ed7fb441^6cd1ce06ed7fb441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/GGBTextLayer.m0000000000000000^1459"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GGBTextLayer.o Source/GGBTextLayer.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBTextLayer.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GGBTextLayer.o"36"51F175DC-C9A2-4260-B804-8AAA6DCB8078-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GGBUtils.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBUtils.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928070.634755
+e343928070.793741
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GGBUtils.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBUtils.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBUtils.m459ca206ed7fb441^4832cb06ed7fb441^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/GGBUtils.m0000000000000000^1443"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GGBUtils.o Source/GGBUtils.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GGBUtils.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GGBUtils.o"36"59B0BAD1-EDFC-4421-8543-DAA08AA691AA-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Game.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Game.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928070.217623
+e343928070.430599
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Game.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Game.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Game.mf3573806ed7fb441^a5bc6e06ed7fb441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/Game.m0000000000000000^1427"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Game.o Source/Game.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Game.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Game.o"36"7C3BEAFA-D784-4366-B248-99EF00CC6F84-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GoGame.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GoGame.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928070.432738
+e343928070.594616
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GoGame.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GoGame.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GoGame.mba4c7106ed7fb441^47399806ed7fb441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/GoGame.m0000000000000000^1435"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GoGame.o Source/GoGame.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GoGame.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GoGame.o"36"4F6AC594-F463-4D38-B85C-2B706AA8ACEC-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Grid.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Grid.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928069.657300
+e343928070.269076
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Grid.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Grid.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Grid.m836da805ed7fb441^5bea4406ed7fb441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/Grid.m0000000000000000^1427"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Grid.o Source/Grid.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Grid.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Grid.o"36"0F355E2B-6C24-4AE4-8E5C-D8CA2FC48F03-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/HexGrid.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/HexGrid.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928070.207564
+e343928070.366392
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/HexGrid.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/HexGrid.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/HexGrid.m3d7c3506ed7fb441^53cc5d06ed7fb441^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/HexGrid.m0000000000000000^1439"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/HexGrid.o Source/HexGrid.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/HexGrid.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/HexGrid.o"36"65C572B7-9B50-488F-A1DB-BC916F091BE0-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/HexchequerGame.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/HexchequerGame.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928070.334579
+e343928070.467769
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/HexchequerGame.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/HexchequerGame.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/HexchequerGame.mc1c65506ed7fb441^98be7706ed7fb441^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/HexchequerGame.m0000000000000000^1467"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/HexchequerGame.o Source/HexchequerGame.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/HexchequerGame.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/HexchequerGame.o"36"7AA43335-675E-41F9-99B1-FACA61E21A3D-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/KlondikeGame.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/KlondikeGame.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928070.502001
+e343928070.633379
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/KlondikeGame.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/KlondikeGame.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/KlondikeGame.m8e958006ed7fb441^2524a206ed7fb441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/KlondikeGame.m0000000000000000^1459"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/KlondikeGame.o Source/KlondikeGame.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/KlondikeGame.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/KlondikeGame.o"36"50F0B0E3-E4B6-4398-826C-599B6EFE00E7-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Piece.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Piece.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928069.657010
+e343928070.177546
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Piece.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Piece.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Piece.md26ea805ed7fb441^db8a2d06ed7fb441^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/Piece.m0000000000000000^1431"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Piece.o Source/Piece.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Piece.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Piece.o"36"3F2F5E93-DC3D-4FDF-8A33-C4FDE00C5117-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Player.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Player.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928070.739487
+e343928070.856946
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Player.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Player.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Player.mba67bd06ed7fb441^0261db06ed7fb441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/Player.m0000000000000000^1435"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Player.o Source/Player.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Player.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Player.o"36"F9928EF3-11DD-4302-9E62-37ACB460205D-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/PlayingCard.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/PlayingCard.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928069.657284
+e343928070.174220
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/PlayingCard.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/PlayingCard.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/PlayingCard.mfe7fa805ed7fb441^ebe02c06ed7fb441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/PlayingCard.m0000000000000000^1455"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/PlayingCard.o Source/PlayingCard.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/PlayingCard.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/PlayingCard.o"36"86F95F19-4D8B-40E6-88D2-849F9C39FCCD-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/QuartzUtils.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/QuartzUtils.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928069.657371
+e343928070.206183
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/QuartzUtils.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/QuartzUtils.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/QuartzUtils.md671a805ed7fb441^69c43406ed7fb441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/QuartzUtils.m0000000000000000^1455"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/QuartzUtils.o Source/QuartzUtils.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/QuartzUtils.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/QuartzUtils.o"36"ECB77EA4-CF87-4B4B-9476-976EB4D265EF-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Stack.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Stack.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928070.469153
+e343928070.604665
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Stack.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Stack.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Stack.mf12d7806ed7fb441^bcca9a06ed7fb441^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/Stack.m0000000000000000^1431"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Stack.o Source/Stack.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Stack.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Stack.o"36"322FA91D-9ADE-4F31-831C-B2E51665F405-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/TicTacToeGame.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/TicTacToeGame.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928070.271157
+e343928070.403407
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/TicTacToeGame.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/TicTacToeGame.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/TicTacToeGame.m52ef4506ed7fb441^9e456706ed7fb441^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/TicTacToeGame.m0000000000000000^1463"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/TicTacToeGame.o Source/TicTacToeGame.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/TicTacToeGame.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/TicTacToeGame.o"36"75720711-ABB5-4238-9B87-C9A041A657CC-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Turn.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Turn.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928070.788569
+e343928070.904174
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Turn.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Turn.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Turn.m05fdc906ed7fb441^c077e706ed7fb441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/Turn.m0000000000000000^1427"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Turn.o Source/Turn.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/Turn.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/Turn.o"36"C6D781A4-3060-41D7-B8C9-8598AC92E1A2-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/main-6A3E53584393C47C.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/main.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928163.255140
+e343928163.435866
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/main-6A3E53584393C47C.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/main.mad6a4163ed7fb441^9e966f63ed7fb441^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/main.m0000000000000000^1543"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/main-6A3E53584393C47C.o Contents/Library/LoginItems/SpartaLogger/Sparta/main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/main.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/main-6A3E53584393C47C.o"36"0090408D-C0EE-4814-96BF-EEA27EE99EE8-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/main-AE2E4C701C9A3B5E.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/main.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/main-B9843B6026D6EFA4.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/main.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928163.252513
+e343928163.435855
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/main-B9843B6026D6EFA4.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/main.m01bd4063ed7fb441^ac8f6f63ed7fb441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/main.m0000000000000000^1461"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/main-B9843B6026D6EFA4.o Source/main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/main.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/main-B9843B6026D6EFA4.o"36"757906C4-4785-45BB-A8DF-3A40BA56F4E3-
+
+CCompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/main.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/main.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928069.656962
+e343928070.129537
+r1
+xCompileC
+xbuild/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/main.o
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/main.ma185a805ed7fb441^164d2306ed7fb441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/main.m0000000000000000^1427"CompileC build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/main.o Source/main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/main.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/main.o"36"3EC41D82-CED9-44BB-AB7B-1FBC63BBD0AE-
+
+CCompileDTraceScript Contents/Library/LoginItems/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/AppDelegate.d
+r0
+
+CCompileDTraceScript Contents/Library/LoginItems/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/main.d
+r0
+
+CCompileDTraceScript Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/AppDelegate.d
+r0
+
+CCompileDTraceScript Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/main.d
+r0
+
+CCompileXIB "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/en.lproj/MainMenu.xib"
+r0
+
+CCompileXIB "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/en.lproj/MainMenu.xib"
+r0
+
+CCopyPlistFile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Sparta-Info.plist" Contents/Library/LoginItems/SpartaLogger/Sparta/Sparta-Info.plist
+r0
+
+CCopyPlistFile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Sparta-Info.plist" Helpers/SpartaLogger/Sparta/Sparta-Info.plist
+r0
+
+CCopyStringsFile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s343928067.075838
+e343928067.079593
+r1
+xCopyStringsFile
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy English.lproj/InfoPlist.strings357c1303ed7fb441^67601403ed7fb441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/English.lproj/InfoPlist.strings0000000000000000^433"CopyStringsFile build/Debug/GeekGameBoard.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/English.lproj" -- English.lproj/InfoPlist.strings36"C5E5D687-5F02-4D91-9AC7-646FD04BCA18-
+
+CCopyStringsFile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/en.lproj/InfoPlist.strings" Contents/Library/LoginItems/SpartaLogger/Sparta/en.lproj/InfoPlist.strings
+r0
+
+CCopyStringsFile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/en.lproj/InfoPlist.strings" Helpers/SpartaLogger/Sparta/en.lproj/InfoPlist.strings
+r0
+
+CCopyTiffFile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/O.tiff" Resources/O.tiff
+s343928067.076256
+e343928067.086924
+r1
+xCopyTiffFile
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/O.tiff
+xResources/O.tiff
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection21"Copy Resources/O.tiff75941303ed7fb441^96401603ed7fb441^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Resources/O.tiff0000000000000000^300"CopyTiffFile build/Debug/GeekGameBoard.app/Contents/Resources/O.tiff Resources/O.tiff    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copyTiff --outdir "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources" -- Resources/O.tiff36"D2DBA7FE-9BAA-4EF8-8C75-B3BA131A44BB-
+
+CCopyTiffFile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/X.tiff" Resources/X.tiff
+s343928067.080850
+e343928067.089488
+r1
+xCopyTiffFile
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/X.tiff
+xResources/X.tiff
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection21"Copy Resources/X.tiffd2c31403ed7fb441^03e91603ed7fb441^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Resources/X.tiff0000000000000000^300"CopyTiffFile build/Debug/GeekGameBoard.app/Contents/Resources/X.tiff Resources/X.tiff    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copyTiff --outdir "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources" -- Resources/X.tiff36"EA9E6416-2803-4CAF-8EF9-AB93240C6193-
+
+CCpResource "Resources/Green Ball.png" "build/Debug/GeekGameBoard.app/Contents/Resources/Green Ball.png"
+s343928067.075845
+e343928067.083111
+r1
+xCpResource
+xResources/Green Ball.png
+xbuild/Debug/GeekGameBoard.app/Contents/Resources/Green Ball.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug/GeekGameBoard.app/Contents/Resources/Green Ball.pnge17b1303ed7fb441^494b1503ed7fb441^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Green%20Ball.png00f434e0deffdf42^459"CpResource "Resources/Green Ball.png" "build/Debug/GeekGameBoard.app/Contents/Resources/Green Ball.png"    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Green Ball.png" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources"36"9FD7EBA3-181E-411B-8D21-35C34F63B688-
+
+CCpResource "Resources/Red Ball.png" "build/Debug/GeekGameBoard.app/Contents/Resources/Red Ball.png"
+s343928067.076164
+e343928067.083104
+r1
+xCpResource
+xResources/Red Ball.png
+xbuild/Debug/GeekGameBoard.app/Contents/Resources/Red Ball.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Debug/GeekGameBoard.app/Contents/Resources/Red Ball.pngd5911303ed7fb441^80461503ed7fb441^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Red%20Ball.png00f434e0deffdf42^453"CpResource "Resources/Red Ball.png" "build/Debug/GeekGameBoard.app/Contents/Resources/Red Ball.png"    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Red Ball.png" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources"36"617E1622-8C9E-4685-8B13-FE4F36BC7491-
+
+CCpResource "Resources/White Ball.png" "build/Debug/GeekGameBoard.app/Contents/Resources/White Ball.png"
+s343928067.076183
+e343928067.090036
+r1
+xCpResource
+xResources/White Ball.png
+xbuild/Debug/GeekGameBoard.app/Contents/Resources/White Ball.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug/GeekGameBoard.app/Contents/Resources/White Ball.png78971303ed7fb441^aa0c1703ed7fb441^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/White%20Ball.png00f434e0deffdf42^459"CpResource "Resources/White Ball.png" "build/Debug/GeekGameBoard.app/Contents/Resources/White Ball.png"    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/White Ball.png" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources"36"244148B5-B934-4DEF-AE94-59982E5801BD-
+
+CCpResource "Resources/Yellow Ball.png" "build/Debug/GeekGameBoard.app/Contents/Resources/Yellow Ball.png"
+s343928067.076170
+e343928067.086695
+r1
+xCpResource
+xResources/Yellow Ball.png
+xbuild/Debug/GeekGameBoard.app/Contents/Resources/Yellow Ball.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug/GeekGameBoard.app/Contents/Resources/Yellow Ball.pngab931303ed7fb441^83311603ed7fb441^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Yellow%20Ball.png00f434e0deffdf42^462"CpResource "Resources/Yellow Ball.png" "build/Debug/GeekGameBoard.app/Contents/Resources/Yellow Ball.png"    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Yellow Ball.png" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources"36"4C0D8B52-996F-4126-A4C1-518CA8960B3D-
+
+CCpResource Contents/Library/LoginItems/SpartaLogger/SpartaLogger.app build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger.app
+s343928163.232931
+e343928163.236276
+r1
+xCpResource
+xContents/Library/LoginItems/SpartaLogger/SpartaLogger.app
+xbuild/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger.app19ad3b63ed7fb441^807d3c63ed7fb441^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger.app00f434e0deffdf42^523"CpResource Contents/Library/LoginItems/SpartaLogger/SpartaLogger.app build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger.app    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/SpartaLogger.app" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources"36"3F944FD7-B32B-4182-B230-5F9800940B43-
+
+CCpResource Contents/Library/LoginItems/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SpartaLogger.LinkFileList build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger.LinkFileList
+r0
+
+CCpResource Contents/Library/LoginItems/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-all-target-headers.hmap build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger-all-target-headers.hmap
+r0
+
+CCpResource Contents/Library/LoginItems/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-generated-files.hmap build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger-generated-files.hmap
+r0
+
+CCpResource Contents/Library/LoginItems/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-own-target-headers.hmap build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger-own-target-headers.hmap
+r0
+
+CCpResource Contents/Library/LoginItems/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-project-headers.hmap build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger-project-headers.hmap
+r0
+
+CCpResource Contents/Library/LoginItems/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger.dep build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger.dep
+r0
+
+CCpResource Contents/Library/LoginItems/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger.hmap build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger.hmap
+r0
+
+CCpResource Contents/Library/LoginItems/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/build-state.dat build/Debug/GeekGameBoard.app/Contents/Resources/build-state.dat
+r0
+
+CCpResource Helpers/SpartaLogger/build/Debug/SpartaLogger.app build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger.app
+r0
+
+CCpResource Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SpartaLogger.LinkFileList build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger.LinkFileList
+r0
+
+CCpResource Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-all-target-headers.hmap build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger-all-target-headers.hmap
+r0
+
+CCpResource Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-generated-files.hmap build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger-generated-files.hmap
+r0
+
+CCpResource Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-own-target-headers.hmap build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger-own-target-headers.hmap
+r0
+
+CCpResource Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-project-headers.hmap build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger-project-headers.hmap
+r0
+
+CCpResource Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger.dep build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger.dep
+r0
+
+CCpResource Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger.hmap build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger.hmap
+r0
+
+CCpResource Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger~.dep build/Debug/GeekGameBoard.app/Contents/Resources/SpartaLogger~.dep
+r0
+
+CCpResource Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/build-state.dat build/Debug/GeekGameBoard.app/Contents/Resources/build-state.dat
+r0
+
+CCpResource Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/build-state~.dat build/Debug/GeekGameBoard.app/Contents/Resources/build-state~.dat
+r0
+
+CCpResource Resources/Background.png build/Debug/GeekGameBoard.app/Contents/Resources/Background.png
+s343928067.084459
+e343928067.092512
+r1
+xCpResource
+xResources/Background.png
+xbuild/Debug/GeekGameBoard.app/Contents/Resources/Background.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug/GeekGameBoard.app/Contents/Resources/Background.png3bab1503ed7fb441^31b71703ed7fb441^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Background.png00f434e0deffdf42^455"CpResource Resources/Background.png build/Debug/GeekGameBoard.app/Contents/Resources/Background.png    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Background.png" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources"36"434D53A9-9748-4CCC-A996-FF38EC2C9C8D-
+
+CCpResource Resources/Balls/ball-black.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-black.png
+s343928067.090704
+e343928067.099374
+r1
+xCpResource
+xResources/Balls/ball-black.png
+xbuild/Debug/GeekGameBoard.app/Contents/Resources/ball-black.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug/GeekGameBoard.app/Contents/Resources/ball-black.png844b1703ed7fb441^9f711903ed7fb441^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/ball-black.png00f434e0deffdf42^467"CpResource Resources/Balls/ball-black.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-black.png    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Balls/ball-black.png" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources"36"49790183-C628-40D8-95D2-74E1A458642C-
+
+CCpResource Resources/Balls/ball-cyan.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-cyan.png
+s343928067.090716
+e343928067.098284
+r1
+xCpResource
+xResources/Balls/ball-cyan.png
+xbuild/Debug/GeekGameBoard.app/Contents/Resources/ball-cyan.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug/GeekGameBoard.app/Contents/Resources/ball-cyan.pngcf491703ed7fb441^aa291903ed7fb441^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/ball-cyan.png00f434e0deffdf42^464"CpResource Resources/Balls/ball-cyan.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-cyan.png    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Balls/ball-cyan.png" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources"36"346A2AC5-9196-4CC9-AD9F-EAEFAD03720E-
+
+CCpResource Resources/Balls/ball-gray.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-gray.png
+s343928067.093665
+e343928067.100985
+r1
+xCpResource
+xResources/Balls/ball-gray.png
+xbuild/Debug/GeekGameBoard.app/Contents/Resources/ball-gray.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug/GeekGameBoard.app/Contents/Resources/ball-gray.png180a1803ed7fb441^1add1903ed7fb441^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/ball-gray.png00f434e0deffdf42^464"CpResource Resources/Balls/ball-gray.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-gray.png    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Balls/ball-gray.png" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources"36"707FDF4C-51CD-45E3-B440-D5733F24070E-
+
+CCpResource Resources/Balls/ball-green.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-green.png
+s343928067.093669
+e343928067.101880
+r1
+xCpResource
+xResources/Balls/ball-green.png
+xbuild/Debug/GeekGameBoard.app/Contents/Resources/ball-green.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug/GeekGameBoard.app/Contents/Resources/ball-green.pngaf0a1803ed7fb441^7f171a03ed7fb441^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/ball-green.png00f434e0deffdf42^467"CpResource Resources/Balls/ball-green.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-green.png    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Balls/ball-green.png" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources"36"2D48971A-8B30-4FE8-B40B-DE891B4367CA-
+
+CCpResource Resources/Balls/ball-orange.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-orange.png
+s343928067.095422
+e343928067.104420
+r1
+xCpResource
+xResources/Balls/ball-orange.png
+xbuild/Debug/GeekGameBoard.app/Contents/Resources/ball-orange.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug/GeekGameBoard.app/Contents/Resources/ball-orange.pnge57d1803ed7fb441^b5c01a03ed7fb441^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/ball-orange.png00f434e0deffdf42^470"CpResource Resources/Balls/ball-orange.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-orange.png    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Balls/ball-orange.png" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources"36"881D6B49-B9B2-404D-9BBB-C1E48166F8DB-
+
+CCpResource Resources/Balls/ball-purple.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-purple.png
+s343928067.095432
+e343928067.103195
+r1
+xCpResource
+xResources/Balls/ball-purple.png
+xbuild/Debug/GeekGameBoard.app/Contents/Resources/ball-purple.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug/GeekGameBoard.app/Contents/Resources/ball-purple.png857c1803ed7fb441^ec6a1a03ed7fb441^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/ball-purple.png00f434e0deffdf42^470"CpResource Resources/Balls/ball-purple.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-purple.png    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Balls/ball-purple.png" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources"36"0155C960-E8F0-490D-A001-A2554B719A8F-
+
+CCpResource Resources/Balls/ball-red.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-red.png
+s343928067.097214
+e343928067.105224
+r1
+xCpResource
+xResources/Balls/ball-red.png
+xbuild/Debug/GeekGameBoard.app/Contents/Resources/ball-red.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Debug/GeekGameBoard.app/Contents/Resources/ball-red.png44f71803ed7fb441^8df01a03ed7fb441^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/ball-red.png00f434e0deffdf42^461"CpResource Resources/Balls/ball-red.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-red.png    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Balls/ball-red.png" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources"36"D013CB9C-791B-4585-9252-8C9587B84A80-
+
+CCpResource Resources/Balls/ball-white.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-white.png
+s343928067.098856
+e343928067.106397
+r1
+xCpResource
+xResources/Balls/ball-white.png
+xbuild/Debug/GeekGameBoard.app/Contents/Resources/ball-white.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug/GeekGameBoard.app/Contents/Resources/ball-white.png4a5e1903ed7fb441^b43c1b03ed7fb441^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/ball-white.png00f434e0deffdf42^467"CpResource Resources/Balls/ball-white.png build/Debug/GeekGameBoard.app/Contents/Resources/ball-white.png    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Balls/ball-white.png" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources"36"61FC787E-3AE4-4780-804A-7A9DF828A2DF-
+
+CCpResource Resources/Gingko/Blue.png build/Debug/GeekGameBoard.app/Contents/Resources/Blue.png
+s343928067.084470
+e343928067.094304
+r1
+xCpResource
+xResources/Gingko/Blue.png
+xbuild/Debug/GeekGameBoard.app/Contents/Resources/Blue.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug/GeekGameBoard.app/Contents/Resources/Blue.pngd1af1503ed7fb441^f6241803ed7fb441^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Blue.png00f434e0deffdf42^451"CpResource Resources/Gingko/Blue.png build/Debug/GeekGameBoard.app/Contents/Resources/Blue.png    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Gingko/Blue.png" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources"36"035E42A0-0BC6-4A2D-9A22-91516E0FB6F6-
+
+CCpResource Resources/Gingko/Gold.png build/Debug/GeekGameBoard.app/Contents/Resources/Gold.png
+s343928067.084483
+e343928067.093296
+r1
+xCpResource
+xResources/Gingko/Gold.png
+xbuild/Debug/GeekGameBoard.app/Contents/Resources/Gold.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug/GeekGameBoard.app/Contents/Resources/Gold.pngdeb01503ed7fb441^04e41703ed7fb441^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Gold.png00f434e0deffdf42^451"CpResource Resources/Gingko/Gold.png build/Debug/GeekGameBoard.app/Contents/Resources/Gold.png    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Gingko/Gold.png" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources"36"608D2C38-E284-4885-B5D9-4E141C9C7D66-
+
+CCpResource Resources/Gingko/Green.png build/Debug/GeekGameBoard.app/Contents/Resources/Green.png
+s343928067.087890
+e343928067.095989
+r1
+xCpResource
+xResources/Gingko/Green.png
+xbuild/Debug/GeekGameBoard.app/Contents/Resources/Green.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug/GeekGameBoard.app/Contents/Resources/Green.png00911603ed7fb441^32931803ed7fb441^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Green.png00f434e0deffdf42^454"CpResource Resources/Gingko/Green.png build/Debug/GeekGameBoard.app/Contents/Resources/Green.png    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Gingko/Green.png" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources"36"172763A6-F5E1-4A94-9C7B-07F88C692F0A-
+
+CCpResource Resources/Gingko/Red.png build/Debug/GeekGameBoard.app/Contents/Resources/Red.png
+s343928067.087906
+e343928067.095295
+r1
+xCpResource
+xResources/Gingko/Red.png
+xbuild/Debug/GeekGameBoard.app/Contents/Resources/Red.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug/GeekGameBoard.app/Contents/Resources/Red.png8e8f1603ed7fb441^41651803ed7fb441^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Red.png00f434e0deffdf42^448"CpResource Resources/Gingko/Red.png build/Debug/GeekGameBoard.app/Contents/Resources/Red.png    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Gingko/Red.png" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources"36"548601C6-0341-4CC0-84A4-EE92F94CA949-
+
+CCpResource Resources/Gingko/Violet.png build/Debug/GeekGameBoard.app/Contents/Resources/Violet.png
+s343928067.088532
+e343928067.097729
+r1
+xCpResource
+xResources/Gingko/Violet.png
+xbuild/Debug/GeekGameBoard.app/Contents/Resources/Violet.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug/GeekGameBoard.app/Contents/Resources/Violet.png4eb91603ed7fb441^af051903ed7fb441^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Violet.png00f434e0deffdf42^457"CpResource Resources/Gingko/Violet.png build/Debug/GeekGameBoard.app/Contents/Resources/Violet.png    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Gingko/Violet.png" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources"36"845F23CC-FB8C-46BA-9C9A-9B8700694714-
+
+CCpResource Resources/Wood.jpg build/Debug/GeekGameBoard.app/Contents/Resources/Wood.jpg
+s343928067.076190
+e343928067.083136
+r1
+xCpResource
+xResources/Wood.jpg
+xbuild/Debug/GeekGameBoard.app/Contents/Resources/Wood.jpg
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug/GeekGameBoard.app/Contents/Resources/Wood.jpg79931303ed7fb441^0d511503ed7fb441^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/Wood.jpg00f434e0deffdf42^437"CpResource Resources/Wood.jpg build/Debug/GeekGameBoard.app/Contents/Resources/Wood.jpg    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Resources/Wood.jpg" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources"36"36EAB269-7680-41FC-B93A-291B162D448D-
+
+CLd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/MacOS/GeekGameBoard" normal i386
+s343928907.587648
+e343928907.676822
+r1
+xLd
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/MacOS/GeekGameBoard
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Link /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/MacOS/GeekGameBoard207e964bf07fb441^bb44ad4bf07fb441^---0#0#0#--793"Ld build/Debug/GeekGameBoard.app/Contents/MacOS/GeekGameBoard normal i386    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv MACOSX_DEPLOYMENT_TARGET 10.6.6    /Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -filelist "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/Objects-normal/i386/GeekGameBoard.LinkFileList" -mmacosx-version-min=10.6.6 -framework ServiceManagement -framework Cocoa -framework Quartz -framework AudioToolbox -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/MacOS/GeekGameBoard"36"3FE08499-653D-4483-90EF-F6B107449FFA-
+
+CPBXCp Contents/Library/LoginItems/SpartaLogger/SpartaLogger.app build/Debug/GeekGameBoard.app/Contents/Library/LoginItems/SpartaLogger.app
+s343928347.207102
+e343928347.210343
+r1
+xPBXCp
+xContents/Library/LoginItems/SpartaLogger/SpartaLogger.app
+xbuild/Debug/GeekGameBoard.app/Contents/Library/LoginItems/SpartaLogger.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug/GeekGameBoard.app/Contents/Library/LoginItems/SpartaLogger.app7a19351bee7fb441^9dda351bee7fb441^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Library/LoginItems/SpartaLogger.app00f434e0deffdf42^536"PBXCp Contents/Library/LoginItems/SpartaLogger/SpartaLogger.app build/Debug/GeekGameBoard.app/Contents/Library/LoginItems/SpartaLogger.app    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/SpartaLogger.app" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Library/LoginItems"36"628B3AA4-14C3-4FF1-85F3-90E44931190D-
+
+CPBXCp Helpers/SpartaLogger/build/Debug/SpartaLogger.app build/Debug/GeekGameBoard.app/Contents/Library/LoginItems/SpartaLogger.app
+s344301190.666130
+e344301190.676071
+r1
+xPBXCp
+xHelpers/SpartaLogger/build/Debug/SpartaLogger.app
+xbuild/Debug/GeekGameBoard.app/Contents/Library/LoginItems/SpartaLogger.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug/GeekGameBoard.app/Contents/Library/LoginItems/SpartaLogger.app6c97aa869e85b441^0e13ad869e85b441^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Library/LoginItems/SpartaLogger.app/0000000000000000^520"PBXCp Helpers/SpartaLogger/build/Debug/SpartaLogger.app build/Debug/GeekGameBoard.app/Contents/Library/LoginItems/SpartaLogger.app    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Library/LoginItems"36"398DBD89-EC4C-4481-A52F-677A5CE560F2-
+
+CProcessInfoPlistFile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Info.plist" Resources/Info.plist
+s343928067.052115
+e343928067.055306
+r1
+xProcessInfoPlistFile
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Info.plist
+xResources/Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Process Resources/Info.plist82700d03ed7fb441^89ef1003ed7fb441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Resources/Info.plist0000000000000000^461"ProcessInfoPlistFile build/Debug/GeekGameBoard.app/Contents/Info.plist Resources/Info.plist    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Info.plist"36"81B3C1DD-DF5D-4E06-89B2-7B97B8468F7D-
+
+CProcessPCH /Users/Ryan/Library/Developer/Xcode/DerivedData/GeekGameBoard-aurcrchxkpqxmuecqbwqnxolfule/Index/PrecompiledHeaders/GeekGameBoard_Prefix-cebjnbjgzktgtwdjkntrevzviqdv_ast/GeekGameBoard_Prefix.pch.pth Source/GeekGameBoard_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch.gch Source/GeekGameBoard_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s343928067.115262
+e343928069.649166
+r1
+xProcessPCH
+x/var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch.gch
+xSource/GeekGameBoard_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Precompile Source/GeekGameBoard_Prefix.pche59b1d03ed7fb441^be2fa605ed7fb441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Source/GeekGameBoard_Prefix.pch0000000000000000^1436"ProcessPCH /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch.gch Source/GeekGameBoard_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6.6 -gdwarf-2 -fvisibility=hidden "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/GeekGameBoard.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources/i386" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/GeekGameBoard.build/Debug/BoardGame.build/DerivedSources" -Wall "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug" -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Source/GeekGameBoard_Prefix.pch" -o /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GeekGameBoard_Prefix-evschhtppjzgrjgfutfexwjjwewz/GeekGameBoard_Prefix.pch.gch36"FF17EE9C-4AB9-403F-AF1A-CB974B2E41E3-
+
+CStripNIB "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/English.lproj/MainMenu.nib"
+s343928067.075814
+e343928067.087218
+r1
+xStripNIB
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/English.lproj/MainMenu.nib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Processing /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/English.lproj/MainMenu.nib9a7c1303ed7fb441^ca531603ed7fb441^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/English.lproj/MainMenu.nib/0000000000000000^440"StripNIB English.lproj/MainMenu.nib    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --strip "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app/Contents/Resources/English.lproj/MainMenu.nib" --output-format human-readable-text "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/English.lproj/MainMenu.nib"36"4856F1B0-C5E3-4DF1-AEA9-05CB0BEE3787-
+
+CTouch "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app"
+s344301190.684790
+e344301190.691472
+r1
+xTouch
+x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Touch /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app965aaf869e85b441^b404b1869e85b441^---0#0#0#--203"Touch build/Debug/GeekGameBoard.app    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp"    /usr/bin/touch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/build/Debug/GeekGameBoard.app"36"CCA7D7FB-2AAC-4D8B-AA83-DF85EEEF1430-
+
