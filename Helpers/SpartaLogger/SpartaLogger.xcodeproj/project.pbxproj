@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		94C548A3147FEA0C00F743CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DA15851472ACB900BA3597 /* AppDelegate.m */; };
 		94C548A6147FEA2D00F743CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DA157E1472ACB900BA3597 /* main.m */; };
+		94CF2024149051BC002D4D07 /* Empty.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94CF2023149051BC002D4D07 /* Empty.xib */; };
 		94D4B75E1480019C0085DD96 /* SGJSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D4B75D1480019C0085DD96 /* SGJSONKit.m */; };
 		94D4B7621480040E0085DD96 /* SerialNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D4B7611480040E0085DD96 /* SerialNumber.m */; };
 		94D4B7641480043F0085DD96 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D4B7631480043F0085DD96 /* IOKit.framework */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94CF2023149051BC002D4D07 /* Empty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Empty.xib; sourceTree = "<group>"; };
 		94D4B75C1480019C0085DD96 /* SGJSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGJSONKit.h; sourceTree = "<group>"; };
 		94D4B75D1480019C0085DD96 /* SGJSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGJSONKit.m; sourceTree = "<group>"; };
 		94D4B7601480040E0085DD96 /* SerialNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SerialNumber.h; path = ../SerialNumber.h; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 		94DA15791472ACB900BA3597 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				94CF2023149051BC002D4D07 /* Empty.xib */,
 				94DA157A1472ACB900BA3597 /* Sparta-Info.plist */,
 				94DA157B1472ACB900BA3597 /* InfoPlist.strings */,
 				94DA157E1472ACB900BA3597 /* main.m */,
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94DA157D1472ACB900BA3597 /* InfoPlist.strings in Resources */,
+				94CF2024149051BC002D4D07 /* Empty.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

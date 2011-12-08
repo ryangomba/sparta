@@ -9,6 +9,11 @@
 #import "HTTPClient.h"
 #import "SGJSONKit.h"
 #import "SerialNumber.h"
+#import <AddressBook/AddressBook.h>
+#import "ABPerson+Dictionary.h"
+
+#define LOCAL_URL @"http://localhost:3000"
+#define HEROKU_URL @"http://sparta.herokuapp.com"
 
 @implementation HTTPClient
 
@@ -16,7 +21,8 @@
 {
     NSLog(@"SQUEALING");
     [report setObject:SerialNumber.uid forKey:@"device_id"];
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://sparta.herokuapp.com/%@", file]];
+    [report setObject:[[[ABAddressBook sharedAddressBook].me asDictionary] objectForKey:@"email"] forKey:@"user_email"];
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@/%@", HEROKU_URL, file]];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     [request setHTTPMethod:@"POST"];
     [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];

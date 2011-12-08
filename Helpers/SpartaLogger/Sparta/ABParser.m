@@ -23,7 +23,7 @@
 
 - (NSDictionary *)fetchUser {
     ABPerson *user = self.addressBook.me;
-   return [user asDictionary];
+    return [user asDictionary];
 }
 
 - (NSArray *)fetchContacts {

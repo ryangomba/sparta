@@ -11,3 +11,6 @@ log/*.log
 db/automation/performances/logs/*.json
 tmp/
 .sass-cache/
+Helpers/
+build/
+

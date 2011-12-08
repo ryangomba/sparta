@@ -10,7 +10,6 @@
 
 @implementation AppDelegate
 
-@synthesize window = _window;
 @synthesize appController;
 
 - (void)dealloc
@@ -21,6 +20,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    NSLog(@"Did finish launching");
     appController = [[[Sparta alloc] init] retain];
     [appController startLogging];
 }

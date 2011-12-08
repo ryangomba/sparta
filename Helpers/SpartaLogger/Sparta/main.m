@@ -6,9 +6,19 @@
 //  Copyright (c) 2011 AppThat. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import "AppDelegate.h"
 
 int main(int argc, char *argv[])
 {
-    return NSApplicationMain(argc, (const char **)argv);
+    AppDelegate * delegate = [[AppDelegate alloc] init];
+    
+    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    
+    NSApplication * application = [NSApplication sharedApplication];
+    [application setDelegate:delegate];
+    [NSApp run];
+    
+    [pool drain];
+    
+    [delegate release];
 }

@@ -59,6 +59,7 @@
     
     [dict setValue:[self valueForProperty:kABFirstNameProperty] forKey:@"first_name"];
     [dict setValue:[self valueForProperty:kABLastNameProperty] forKey:@"last_name"];
+    [dict setValue:[self valueForProperty:kABNicknameProperty] forKey:@"nickname"];
     [dict setValue:[self valueForProperty:kABOrganizationProperty] forKey:@"company"];
     
     [dict setValue:[self primaryValueForProperty:kABEmailProperty] forKey:@"email"];
@@ -69,10 +70,16 @@
     [dict setValue:[self socialHandle:@"Facebook"] forKey:@"facebook"];
     [dict setValue:[self socialHandle:@"LinkedIn"] forKey:@"linkedin"];
     
+    if ([[self valueForProperty:kABLastNameProperty] isEqual:@"Black"]) {
+        NSLog(@"%@", self);
+        NSLog(@"%@", [self socialHandle:@"Twitter"]);
+    }
+    
     [dict setValue:[self chatHandle:@"AIM"] forKey:@"aim"];
     [dict setValue:[self chatHandle:@"Jabber"] forKey:@"jabber"];
     
-    //[dict setValue:[self imageData] forKey:@"image"];
+    //UIImage *image = [CIImage imageWithData:self.imageData];
+    //[dict setValue:UIImageJPEGRepresentation(image, 1.0) forKey:@"image"];
     
     [dict setValue:[NSNumber numberWithBool:[self isEqual:[[ABAddressBook sharedAddressBook] me]]] forKey:@"me"];
     

