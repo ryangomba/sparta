@@ -1,0 +1,108 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree . 
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/* HELPERS */
+
+.fl { float: left; }
+.fr { float: right; }
+.clear { clear: both; }
+
+/* GLOBAL */
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	color: #444;
+}
+.page {
+	position: relative;
+	width: 920px;
+	margin: auto;
+}
+.left {
+	float: left;
+	width: 500px;
+	margin-right: 40px;
+}
+.right {
+	float: left;
+	width: 380px;
+}
+#main {
+	padding: 60px 0px;
+}
+
+/* HEADINGS */
+
+h1 {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+p {
+	line-height: 24px;
+}
+a {
+	color: #1291c0;
+	text-decoration: none;
+	&:hover {
+		color: #c0125c;
+	}
+}

@@ -1,0 +1,3 @@
+<% unless @snippets.empty? %>
+$('#snippets').prepend('<%= escape_javascript(render "snippets", { snippets: @snippets })%>')
+<% end %>

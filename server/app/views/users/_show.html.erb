@@ -1,0 +1,8 @@
+<div id="info">
+	<%= user_image(user) %>
+	<div id="user-info"><%= show_user_info(user) %></div>
+	<div id="map"></div>
+	<% if user.contact && user.contact.address %>
+	<script>geocode('<%= user.contact.address_query %>');</script>
+	<% end %>
+</div>

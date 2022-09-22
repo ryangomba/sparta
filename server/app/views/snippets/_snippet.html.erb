@@ -1,0 +1,11 @@
+<div class="snippet">
+	<p>
+		<%= link_to snippet.user, snippet.user %>: 
+		<span class="snippet-text"><%= snippet.html %></span>
+		<span class="snippet-location">
+			<% if snippet.location_link %>
+				<a target='new' href='<%= snippet.location_link %>'>&#x25C9;</a>
+			<% end %>
+		</span>
+	</p>
+</div>

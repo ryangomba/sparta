@@ -1,0 +1,7 @@
+<div class="contact">
+	<%= contact_image(contact) %>
+	<p><%= contact %><%= contact.family ? " <span class='family'>(#{contact.nickname})</span>".html_safe : '' %></p>
+	<div class="info">
+		<%= show_contact_info(contact) %>
+	</div>
+</div>

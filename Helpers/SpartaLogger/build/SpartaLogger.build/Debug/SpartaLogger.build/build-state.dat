@@ -1,627 +1,0 @@
-TSpartaLogger
-v4
-r1
-cCheck dependencies
-cProcessInfoPlistFile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/Info.plist" Sparta/Sparta-Info.plist
-cProcessPCH /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-bdaqmuphwcaoqqbcohmkcvbjykjk/Sparta-Prefix.pch.pth Sparta/Sparta-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/main.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/AppDelegate.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/AppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SGJSONKit.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/JSONKit/SGJSONKit.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SerialNumber.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/JSONKit/../SerialNumber.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/KeyLogger.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/KeyLogger.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/ABParser.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/ABParser.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/Sparta.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Sparta.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/HTTPClient.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/HTTPClient.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/ABPerson+Dictionary.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/ABPerson+Dictionary.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/MacOS/SpartaLogger" normal x86_64
-cCopyStringsFile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/Resources/en.lproj/InfoPlist.strings" Sparta/en.lproj/InfoPlist.strings
-cCompileXIB "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Empty.xib"
-cTouch "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app"
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004EA9FCFC00000000000000EE
-t1319763196
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
-c000000004E2F297A00000000000748D8
-t1311713658
-s477400
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004E2F297C0000000000003430
-t1311713660
-s13360
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/IOKit
-c000000004E41B9E0000000000003D1C8
-t1312930272
-s250312
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app
-t2
-s0
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app/Contents/Info.plist
-t2
-s0
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app/Contents/MacOS/SpartaLogger
-t2
-s0
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app/Contents/PkgInfo
-t2
-s0
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app/Contents/Resources/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app/Contents/Resources/en.lproj/MainMenu.nib
-t2
-s0
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/AppDelegate.o
-t2
-s0
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SpartaLogger.LinkFileList
-c000000004ECFB57C0000000000000163
-t1322235260
-s355
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/main.o
-t2
-s0
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/Sparta-Prefix.pch
-c000000004EC7CC4F00000000000000B5
-t1321716815
-s181
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/en.lproj/InfoPlist.strings
-c000000004EC27539000000000000002D
-t1321366841
-s45
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/en.lproj/MainMenu.xib
-c000000004EC275390000000000032DF1
-t1321366841
-s208369
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/main.m
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/ABParser.h
-c000000004ED0014B000000000000012E
-t1322254667
-s302
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/ABParser.m
-c000000004EE022B6000000000000038A
-t1323311798
-s906
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/ABPerson+Dictionary.h
-c000000004ECFF868000000000000013A
-t1322252392
-s314
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/ABPerson+Dictionary.m
-c000000004EDE9F850000000000000C14
-t1323212677
-s3092
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/AppDelegate.h
-c000000004EE018E8000000000000010D
-t1323309288
-s269
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/AppDelegate.m
-c000000004EE01A6800000000000001E6
-t1323309672
-s486
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Empty.xib
-c000000004EE01A3C0000000000001312
-t1323309628
-s4882
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/HTTPClient.h
-c000000004ECFED8E00000000000000FE
-t1322249614
-s254
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/HTTPClient.m
-c000000004EE023330000000000000479
-t1323311923
-s1145
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/JSONKit/../SerialNumber.m
-c000000004ECFE8960000000000000443
-t1322248342
-s1091
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/JSONKit/SGJSONKit.h
-c000000004EAFF55D0000000000002EC1
-t1320154461
-s11969
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/JSONKit/SGJSONKit.m
-c000000004EAFF55D000000000002B0C0
-t1320154461
-s176320
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/KeyLogger.h
-c000000004ED0279600000000000001EE
-t1322264470
-s494
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/KeyLogger.m
-c000000004EDFF3380000000000000EDA
-t1323299640
-s3802
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/SerialNumber.h
-c000000004ECFE87800000000000000C7
-t1322248312
-s199
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/SerialNumber.m
-c000000004ECFCCB1000000000000049A
-t1322241201
-s1178
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Sparta-Prefix.pch
-c000000004EC7CC4F00000000000000B5
-t1321716815
-s181
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Sparta.h
-c000000004ECFEF1C0000000000000191
-t1322250012
-s401
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Sparta.m
-c000000004ED021810000000000000242
-t1322262913
-s578
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/en.lproj/InfoPlist.strings
-c000000004EC27539000000000000002D
-t1321366841
-s45
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/en.lproj/MainMenu.xib
-c000000004EC275390000000000032DF1
-t1321366841
-s208369
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/main.m
-c000000004EE01B0C00000000000001F0
-t1323309836
-s496
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app
-t1323312236
-s102
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/Info.plist
-t1323309644
-s1447
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/MacOS/SpartaLogger
-t1323312236
-s198372
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/PkgInfo
-t1323309644
-s8
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/Resources/Empty.nib
-t1323309644
-s858
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/Resources/en.lproj/InfoPlist.strings
-t1323308380
-s92
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/Resources/en.lproj/MainMenu.nib
-t1322236040
-s26654
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/ABParser.o
-t1323312236
-s9472
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/ABPerson+Dictionary.o
-t1323307313
-s16952
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/AppDelegate.o
-t1323309674
-s14964
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/HTTPClient.o
-t1323312236
-s9120
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/KeyLogger.o
-t1323307312
-s16308
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SGJSONKit.o
-t1323307313
-s257124
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SerialNumber.o
-t1323307312
-s5724
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/Sparta.o
-t1323307312
-s9252
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SpartaLogger.LinkFileList
-c000000004ECFF49C000000000000058C
-t1322251420
-s1420
-
-N/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/main.o
-t1323309838
-s13564
-
-N/var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-asnfmqpzcrtrodfqilvzzndrvwmo/Sparta-Prefix.pch.pth
-t2
-s0
-
-N/var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-bdaqmuphwcaoqqbcohmkcvbjykjk/Sparta-Prefix.pch.pth
-t1322236040
-s10329068
-
-NSparta/Sparta-Info.plist
-c000000004EE01A4A0000000000000462
-t1323309642
-s1122
-
-CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m"
-r0
-
-CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/main.m"
-r0
-
-CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/ABParser.m"
-r0
-
-CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/ABPerson+Dictionary.m"
-r0
-
-CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/AppDelegate.m"
-r0
-
-CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/HTTPClient.m"
-r0
-
-CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/JSONKit/../SerialNumber.m"
-r0
-
-CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/JSONKit/SGJSONKit.m"
-r0
-
-CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/KeyLogger.m"
-r0
-
-CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/SerialNumber.m"
-r0
-
-CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Sparta.m"
-r0
-
-CBuild AST from "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/main.m"
-r0
-
-CCheck dependencies
-r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies403116065e90b441^527e16065e90b441^---0#1#0#--18"Check dependencies36"50A3F8D5-2029-4C86-8B20-E5FA73E7450E-
-
-CCompileC ./build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/AppDelegate.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s343928060.944535
-e343928060.986169
-r1
-xCompileC
-x./build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/AppDelegate.o
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m:11:12: warning: no previous prototype for function 'myCGEventCallback' [-Wmissing-prototypes,3]
-o CGEventRef myCGEventCallback(CGEventTapProxy proxy, CGEventType type,
-o            ^
-o1 warning generated.
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.mace6f1fcec7fb441^0876fcfcec7fb441^-316"/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m:11:12: warning: no previous prototype for function 'myCGEventCallback' [-Wmissing-prototypes,3] CGEventRef myCGEventCallback(CGEventTapProxy proxy, CGEventType type,            ^1 warning generated.1(21%IDEActivityLogMessage2@54"No previous prototype for function 'myCGEventCallback'-343928060#0#210#-1#-23%DVTTextDocumentLocation3@131"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m0000000000000000^10#11#10#11#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@131"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m0000000000000000^2925"CompileC ./build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/AppDelegate.o Sparta/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-generated-files.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-own-target-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-all-target-headers.hmap" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-project-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources/x86_64" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources" "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-asnfmqpzcrtrodfqilvzzndrvwmo/Sparta-Prefix.pch -MMD -MT dependencies -MF "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/AppDelegate.d" -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/AppDelegate.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/AppDelegate.o"36"A077870D-3751-4BA6-AC2E-6910E0BA6EEE-
-
-CCompileC ./build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/main.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s343928060.944796
-e343928060.967081
-r1
-xCompileC
-x./build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/main.o
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/main.m17f5f1fcec7fb441^4b92f7fcec7fb441^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/main.m0000000000000000^2890"CompileC ./build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/main.o Sparta/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-generated-files.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-own-target-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-all-target-headers.hmap" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-project-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources/x86_64" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources" "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-asnfmqpzcrtrodfqilvzzndrvwmo/Sparta-Prefix.pch -MMD -MT dependencies -MF "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/main.d" -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/main.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/main.o"36"EEB60FBC-A005-4B8F-AE04-F624F0B143CC-
-
-CCompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/ABParser.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/ABParser.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s345005036.712397
-e345005036.752588
-r1
-xCompileC
-xbuild/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/ABParser.o
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/ABParser.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/ABParser.m1cb1b6ec5b90b441^61a7c0ec5b90b441^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/ABParser.m0000000000000000^2676"CompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/ABParser.o Sparta/ABParser.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-generated-files.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-own-target-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-all-target-headers.hmap" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-project-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources/x86_64" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources" "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-bdaqmuphwcaoqqbcohmkcvbjykjk/Sparta-Prefix.pch -MMD -MT dependencies -MF "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/ABParser.d" -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/ABParser.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/ABParser.o"36"E51D254F-04F4-40C8-AE4B-245557B64202-
-
-CCompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/ABPerson+Dictionary.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/ABPerson+Dictionary.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s344905479.392855
-e344905479.429778
-r1
-xCompileC
-xbuild/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/ABPerson+Dictionary.o
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/ABPerson+Dictionary.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/ABPerson+Dictionary.m8ba96407d78eb441^14056e07d78eb441^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/ABPerson+Dictionary.m0000000000000000^2731"CompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/ABPerson+Dictionary.o Sparta/ABPerson+Dictionary.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-generated-files.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-own-target-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-all-target-headers.hmap" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-project-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources/x86_64" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources" "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-bdaqmuphwcaoqqbcohmkcvbjykjk/Sparta-Prefix.pch -MMD -MT dependencies -MF "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/ABPerson+Dictionary.d" -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/ABPerson+Dictionary.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/ABPerson+Dictionary.o"36"5232083F-B204-42E6-8DEC-1DA2111AECCB-
-
-CCompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/AppDelegate.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/AppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s345002474.476985
-e345002474.504882
-r1
-xCompileC
-xbuild/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/AppDelegate.o
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/AppDelegate.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/AppDelegate.mc1367aea5190b441^134881ea5190b441^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/AppDelegate.m0000000000000000^2691"CompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/AppDelegate.o Sparta/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-generated-files.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-own-target-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-all-target-headers.hmap" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-project-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources/x86_64" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources" "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-bdaqmuphwcaoqqbcohmkcvbjykjk/Sparta-Prefix.pch -MMD -MT dependencies -MF "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/AppDelegate.d" -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/AppDelegate.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/AppDelegate.o"36"185BE008-9BD5-4DE9-9ADE-1A7E002FA799-
-
-CCompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/HTTPClient.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/HTTPClient.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s345005036.712455
-e345005036.752590
-r1
-xCompileC
-xbuild/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/HTTPClient.o
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/HTTPClient.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/HTTPClient.m64b0b6ec5b90b441^cdadc0ec5b90b441^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/HTTPClient.m0000000000000000^2686"CompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/HTTPClient.o Sparta/HTTPClient.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-generated-files.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-own-target-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-all-target-headers.hmap" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-project-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources/x86_64" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources" "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-bdaqmuphwcaoqqbcohmkcvbjykjk/Sparta-Prefix.pch -MMD -MT dependencies -MF "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/HTTPClient.d" -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/HTTPClient.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/HTTPClient.o"36"0CA418D3-2BD0-4CE0-AFFD-D4BC43E18D7D-
-
-CCompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/KeyLogger.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/KeyLogger.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s344992451.620343
-e344992451.651621
-r1
-xCompileC
-xbuild/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/KeyLogger.o
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/KeyLogger.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/KeyLogger.m34f59ec32a90b441^96cfa6c32a90b441^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/KeyLogger.m0000000000000000^2681"CompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/KeyLogger.o Sparta/KeyLogger.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-generated-files.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-own-target-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-all-target-headers.hmap" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-project-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources/x86_64" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources" "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-bdaqmuphwcaoqqbcohmkcvbjykjk/Sparta-Prefix.pch -MMD -MT dependencies -MF "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/KeyLogger.d" -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/KeyLogger.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/KeyLogger.o"36"00AA48A7-0602-42DE-9EAE-3A65E0EC554D-
-
-CCompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SGJSONKit.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/JSONKit/SGJSONKit.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s343933433.313746
-e343933433.610302
-r1
-xCompileC
-xbuild/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SGJSONKit.o
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/JSONKit/SGJSONKit.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/JSONKit/SGJSONKit.m5e8550f90180b441^9f3c9cf90180b441^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/JSONKit/SGJSONKit.m0000000000000000^2697"CompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SGJSONKit.o Sparta/JSONKit/SGJSONKit.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-generated-files.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-own-target-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-all-target-headers.hmap" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-project-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources/x86_64" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources" "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-bdaqmuphwcaoqqbcohmkcvbjykjk/Sparta-Prefix.pch -MMD -MT dependencies -MF "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SGJSONKit.d" -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/JSONKit/SGJSONKit.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SGJSONKit.o"36"C24ABEB6-8CC7-44A4-836D-67134E44F428-
-
-CCompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SerialNumber.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/JSONKit/../SerialNumber.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s343942566.863821
-e343942566.893711
-r1
-xCompileC
-xbuild/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SerialNumber.o
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/JSONKit/../SerialNumber.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/JSONKit/../SerialNumber.m6840dda62580b441^c9c9e4a62580b441^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/JSONKit/../SerialNumber.m0000000000000000^2718"CompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SerialNumber.o Sparta/JSONKit/../SerialNumber.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-generated-files.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-own-target-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-all-target-headers.hmap" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-project-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources/x86_64" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources" "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-bdaqmuphwcaoqqbcohmkcvbjykjk/Sparta-Prefix.pch -MMD -MT dependencies -MF "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SerialNumber.d" -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/JSONKit/../SerialNumber.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SerialNumber.o"36"AD9DB957-C01C-45B2-8094-B2DC217144AD-
-
-CCompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SerialNumber.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/SerialNumber.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s343934364.842774
-e343934364.869410
-r1
-xCompileC
-xbuild/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SerialNumber.o
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/SerialNumber.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/SerialNumber.mace4d79c0580b441^7990de9c0580b441^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/SerialNumber.m0000000000000000^2696"CompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SerialNumber.o Sparta/SerialNumber.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-generated-files.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-own-target-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-all-target-headers.hmap" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-project-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources/x86_64" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources" "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-bdaqmuphwcaoqqbcohmkcvbjykjk/Sparta-Prefix.pch -MMD -MT dependencies -MF "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SerialNumber.d" -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/SerialNumber.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SerialNumber.o"36"0872BFE6-E19D-4806-A541-8412FBE4370C-
-
-CCompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/Sparta.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Sparta.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s343957338.390564
-e343957338.425381
-r1
-xCompileC
-xbuild/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/Sparta.o
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Sparta.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Sparta.mf148645a5f80b441^60e56c5a5f80b441^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Sparta.m0000000000000000^2666"CompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/Sparta.o Sparta/Sparta.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-generated-files.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-own-target-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-all-target-headers.hmap" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-project-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources/x86_64" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources" "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-bdaqmuphwcaoqqbcohmkcvbjykjk/Sparta-Prefix.pch -MMD -MT dependencies -MF "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/Sparta.d" -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Sparta.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/Sparta.o"36"96DD45DA-79A0-4E25-9DC6-2EFA909020D8-
-
-CCompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/main.o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s345002638.743854
-e345002638.773591
-r1
-xCompileC
-xbuild/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/main.o
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/main.mbd8cbe8e5290b441^6809c68e5290b441^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/main.m0000000000000000^2656"CompileC build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/main.o Sparta/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-generated-files.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-own-target-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-all-target-headers.hmap" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-project-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources/x86_64" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources" "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug" -include /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-bdaqmuphwcaoqqbcohmkcvbjykjk/Sparta-Prefix.pch -MMD -MT dependencies -MF "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/main.d" -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/main.m" -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/main.o"36"07D93AEB-4DBF-4BC9-A277-1C51D163E710-
-
-CCompileXIB "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/en.lproj/MainMenu.xib"
-s343928061.125775
-e343928061.216099
-r1
-xCompileXIB
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/en.lproj/MainMenu.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compiling /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/en.lproj/MainMenu.xib4e4720fdec7fb441^986d37fdec7fb441^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/en.lproj/MainMenu.xib0000000000000000^622"CompileXIB Sparta/en.lproj/MainMenu.xib    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app/Contents/Resources/en.lproj/MainMenu.nib" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/en.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk36"98995F31-92E3-4490-8CDA-4D66E34A0554-
-
-CCompileXIB "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Empty.xib"
-s345002444.865428
-e345002444.879989
-r1
-xCompileXIB
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Empty.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compiling /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Empty.xib7c9cddcc5190b441^054fe1cc5190b441^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Empty.xib0000000000000000^536"CompileXIB Sparta/Empty.xib    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/Resources/Empty.nib" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Empty.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk36"58B5BB4D-A4F7-4894-A2B0-9221E9F9BE2F-
-
-CCompileXIB "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/en.lproj/MainMenu.xib"
-s343928840.343419
-e343928840.430770
-r1
-xCompileXIB
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/en.lproj/MainMenu.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compiling /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/en.lproj/MainMenu.xiba9f85708f07fb441^8d466e08f07fb441^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/en.lproj/MainMenu.xib0000000000000000^572"CompileXIB Sparta/en.lproj/MainMenu.xib    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/Resources/en.lproj/MainMenu.nib" "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/en.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk36"59CDDF58-3049-42BE-9D05-62616BEE94AE-
-
-CCopyStringsFile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app/Contents/Resources/en.lproj/InfoPlist.strings" Sparta/en.lproj/InfoPlist.strings
-s343928061.125767
-e343928061.204499
-r1
-xCopyStringsFile
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app/Contents/Resources/en.lproj/InfoPlist.strings
-xSparta/en.lproj/InfoPlist.strings
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy Sparta/en.lproj/InfoPlist.strings0f4620fdec7fb441^0c5a34fdec7fb441^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/en.lproj/InfoPlist.strings0000000000000000^486"CopyStringsFile ./SpartaLogger.app/Contents/Resources/en.lproj/InfoPlist.strings Sparta/en.lproj/InfoPlist.strings    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app/Contents/Resources/en.lproj" -- Sparta/en.lproj/InfoPlist.strings36"8D1963E1-F37A-4082-8249-E5836D0D2F05-
-
-CCopyStringsFile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/Resources/en.lproj/InfoPlist.strings" Sparta/en.lproj/InfoPlist.strings
-s345001180.801034
-e345001180.803820
-r1
-xCopyStringsFile
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/Resources/en.lproj/InfoPlist.strings
-xSparta/en.lproj/InfoPlist.strings
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy Sparta/en.lproj/InfoPlist.strings0820cddc4c90b441^c5c9cddc4c90b441^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/en.lproj/InfoPlist.strings0000000000000000^466"CopyStringsFile build/Debug/SpartaLogger.app/Contents/Resources/en.lproj/InfoPlist.strings Sparta/en.lproj/InfoPlist.strings    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/Resources/en.lproj" -- Sparta/en.lproj/InfoPlist.strings36"97B8EE40-2141-4382-A5AE-9A72BF85A57E-
-
-CLd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app/Contents/MacOS/SpartaLogger" normal x86_64
-s343928060.992906
-e343928061.118007
-r1
-xLd
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app/Contents/MacOS/SpartaLogger
-xnormal
-xx86_64
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Link /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app/Contents/MacOS/SpartaLogger253ffefcec7fb441^585626fdec7fb441^---0#0#0#--877"Ld ./SpartaLogger.app/Contents/MacOS/SpartaLogger normal x86_64    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger" "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger" -filelist "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SpartaLogger.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app/Contents/MacOS/SpartaLogger"36"9EFB4961-352E-49AC-8297-B380F4936C97-
-
-CLd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/MacOS/SpartaLogger" normal x86_64
-s345005036.759869
-e345005036.801577
-r1
-xLd
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/MacOS/SpartaLogger
-xnormal
-xx86_64
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Link /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/MacOS/SpartaLogger909ec2ec5b90b441^7a34cdec5b90b441^---0#0#0#--859"Ld build/Debug/SpartaLogger.app/Contents/MacOS/SpartaLogger normal x86_64    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug" "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug" -filelist "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/Objects-normal/x86_64/SpartaLogger.LinkFileList" -mmacosx-version-min=10.6 -framework AddressBook -framework IOKit -framework Cocoa -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/MacOS/SpartaLogger"36"B9E8D3D0-4883-4FD0-8263-2B5FFE73DACC-
-
-CProcessInfoPlistFile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app/Contents/Info.plist" Sparta/Sparta-Info.plist
-s343928060.203974
-e343928060.207315
-r1
-xProcessInfoPlistFile
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app/Contents/Info.plist
-xSparta/Sparta-Info.plist
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Process Sparta/Sparta-Info.plist514a34fcec7fb441^231235fcec7fb441^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/Sparta-Info.plist0000000000000000^559"ProcessInfoPlistFile ./SpartaLogger.app/Contents/Info.plist Sparta/Sparta-Info.plist    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger"    builtin-infoPlistUtility Sparta/Sparta-Info.plist -genpkginfo "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app/Contents/Info.plist"36"0F95F2A3-541D-4480-BC00-D0AB3A136F56-
-
-CProcessInfoPlistFile "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/Info.plist" Sparta/Sparta-Info.plist
-s345002444.762412
-e345002444.766055
-r1
-xProcessInfoPlistFile
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/Info.plist
-xSparta/Sparta-Info.plist
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Process Sparta/Sparta-Info.plist4243c3cc5190b441^a228c4cc5190b441^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Sparta-Info.plist0000000000000000^529"ProcessInfoPlistFile build/Debug/SpartaLogger.app/Contents/Info.plist Sparta/Sparta-Info.plist    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger"    builtin-infoPlistUtility Sparta/Sparta-Info.plist -genpkginfo "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app/Contents/Info.plist"36"2500094F-26A9-48D9-8B9F-BC637D59327A-
-
-CProcessPCH /Users/Ryan/Library/Developer/Xcode/DerivedData/SpartaLogger-cpoojkaostyhnlcgaigcjqhuajto/Index/PrecompiledHeaders/Sparta-Prefix-fzytxrnagdmvbrgzjsufpvpkfvrc_ast/Sparta-Prefix.pch.pth Sparta/Sparta-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/Ryan/Library/Developer/Xcode/DerivedData/SpartaLogger-daeqiirnwqgitfciunwmfvprjdwy/Index/PrecompiledHeaders/Sparta-Prefix-dtecvhxlvymkbveyxqmydbqcboxm_ast/Sparta-Prefix.pch.pth Sparta/Sparta-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-asnfmqpzcrtrodfqilvzzndrvwmo/Sparta-Prefix.pch.pth Sparta/Sparta-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s343928060.215284
-e343928060.937376
-r1
-xProcessPCH
-x/var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-asnfmqpzcrtrodfqilvzzndrvwmo/Sparta-Prefix.pch.pth
-xSparta/Sparta-Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile Sparta/Sparta-Prefix.pch6e3537fcec7fb441^cff7effcec7fb441^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/Sparta-Prefix.pch0000000000000000^2799"ProcessPCH /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-asnfmqpzcrtrodfqilvzzndrvwmo/Sparta-Prefix.pch.pth Sparta/Sparta-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-generated-files.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-own-target-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-all-target-headers.hmap" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-project-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources/x86_64" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources" "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger" -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/Sparta/Sparta-Prefix.pch" -o /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-asnfmqpzcrtrodfqilvzzndrvwmo/Sparta-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-asnfmqpzcrtrodfqilvzzndrvwmo/Sparta-Prefix.pch.d36"085E91D0-999E-48A0-8C3F-4E4C93B7E16B-
-
-CProcessPCH /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-bdaqmuphwcaoqqbcohmkcvbjykjk/Sparta-Prefix.pch.pth Sparta/Sparta-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s343928839.213361
-e343928840.138071
-r1
-xProcessPCH
-x/var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-bdaqmuphwcaoqqbcohmkcvbjykjk/Sparta-Prefix.pch.pth
-xSparta/Sparta-Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile Sparta/Sparta-Prefix.pchb3b53607f07fb441^f7572308f07fb441^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/Ryan/Dropbox/School/CS%204235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Sparta-Prefix.pch0000000000000000^2611"ProcessPCH /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-bdaqmuphwcaoqqbcohmkcvbjykjk/Sparta-Prefix.pch.pth Sparta/Sparta-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-generated-files.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-own-target-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-all-target-headers.hmap" -iquote "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/SpartaLogger-project-headers.hmap" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/include" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources/x86_64" "-I/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/SpartaLogger.build/Debug/SpartaLogger.build/DerivedSources" "-F/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug" -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/Sparta/Sparta-Prefix.pch" -o /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-bdaqmuphwcaoqqbcohmkcvbjykjk/Sparta-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/bw/p9tbsy0575db_7m1dw_qjj480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparta-Prefix-bdaqmuphwcaoqqbcohmkcvbjykjk/Sparta-Prefix.pch.d36"04425CE1-6842-4F76-94A7-3208E09914F8-
-
-CTouch "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app"
-s343928061.224162
-e343928061.231601
-r1
-xTouch
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Touch /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app4c7139fdec7fb441^b8e63efdec7fb441^---0#0#0#--263"Touch ./SpartaLogger.app    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger"    /usr/bin/touch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Contents/Library/LoginItems/SpartaLogger/./SpartaLogger.app"36"789EE01C-36AC-46A8-BED2-7B3FB6D16023-
-
-CTouch "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app"
-s345005036.819746
-e345005036.824004
-r1
-xTouch
-x/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Touch /Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app9fe5d1ec5b90b441^41f2d2ec5b90b441^---0#0#0#--243"Touch build/Debug/SpartaLogger.app    cd "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger"    /usr/bin/touch -c "/Users/Ryan/Dropbox/School/CS 4235/Sparta/SpartaApp/Helpers/SpartaLogger/build/Debug/SpartaLogger.app"36"1E52BABB-D961-4C36-94D7-339BF6082C24-
-

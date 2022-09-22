@@ -1,0 +1,3 @@
+heroku pg:reset SHARED_DATABASE
+heroku run rake db:migrate
+heroku restart

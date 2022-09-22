@@ -1,0 +1,31 @@
+<div id="user">
+
+	<h1><a href="/">Sparta</a> &rarr; <%= @user %></h1>
+
+	<div class="left">
+		<h2>Keystrokes</h2>
+		<div id="snippets">
+			<%= render 'snippets/snippets', { snippets: @snippets } %>
+		</div>
+	</div>
+
+	<div class="right">
+		<h2>
+			<span class="user-section active" id="info-heading">Info</span>
+			<span class="user-section" id="contacts-heading">Contacts</span>
+			<span class="user-section" id="stats-heading">Stats</span>
+		</h2>
+		<div class="user-section-content" id="info-content">
+			<%= render 'show', { user: @user } %>
+		</div>
+		<div class="user-section-content" id="contacts-content">
+			<% @user.contacts.each do |c| %>
+				<%= render 'contacts/contact', { contact: c } %>
+			<% end %>
+		</div>
+		<div class="user-section-content" id="stats-content">
+			<%= render 'stats', { user: @user } %>
+		</div>
+	</div>	
+
+</div>

@@ -1,0 +1,79 @@
+#user {
+	h2 {
+		cursor: pointer;
+		span {
+			color: #ccc;
+			padding-right: 10px;
+			&:hover {
+				color: #999;
+			}
+			&.active {
+				color: #444;
+			}
+		}
+	}
+}
+#info {
+	position: relative;
+	height: 450px;
+	margin-bottom: 30px;
+	#map {
+		display: none;
+		position: absolute;
+		bottom: 0px;
+		width: 380px;
+		height: 200px;
+	}
+	#user-info {
+		float: left;
+		padding: 10px 20px;
+		width: 240px;
+		background-color: #eee;
+	}
+	img {
+		float: left;
+		padding: 0px 20px 50px 0px;
+		width: 73px;
+	}
+}
+#contacts-content {
+	display: none;
+	max-height: 450px;
+	overflow: scroll;
+	.contact {
+		padding: 8px;
+		&:nth-child(odd) {
+			background-color: #eee;
+		}
+		.info {
+			display: none;
+			padding: 5px 0px 0px 40px;
+		}
+		&:hover {
+			cursor: pointer;
+		}
+		p {
+			margin-top: 4px;
+		}
+		img {
+			float: left;
+			height: 30px;
+			margin-right: 10px;
+		}
+		.family {
+			background-color: #0000ff;
+			padding: 4px;
+			color: #fff;
+		}
+	}
+}
+#stats-content {
+	display: none;
+	padding: 10px 20px;
+	width: 340px;
+	background-color: #eee;
+	p {
+		font-size: 16px;
+		margin: 5px 0px;
+	}
+}

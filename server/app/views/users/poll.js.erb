@@ -1,0 +1,4 @@
+<% unless @snippets.empty? %>
+$('#snippets').prepend('<%= escape_javascript(render "snippets/snippets", { snippets: @snippets })%>')
+$('#stats-content').html('<%= escape_javascript(render "users/stats", { user: @user })%>')
+<% end %>
